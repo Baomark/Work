@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main()
+{
+	int i;
+	float item_rate[5],total=0;
+	printf("input the price");
+	for(i=0;i<5;i++)
+	{
+		scanf("%f",&item_rate[i]);
+		total= total +item_rate[i];
+	}
+	printf("%f\n",total);
+}
